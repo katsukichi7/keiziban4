@@ -1,0 +1,248 @@
+/* 共通 */
+body {
+    background-color: azure;
+}
+
+/* ヘッダー */
+header {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .title {
+    text-align: center;
+}
+
+.title {
+    margin: 10px;
+}
+
+.title>a {
+    text-decoration: none;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-button {
+    padding: 5px 10px;
+    /* ボタンの余白を調整する */
+    border-radius: 5px;
+}
+
+#search {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#color-select {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#colorText {
+    padding-top: 10px;
+    margin-right: 10px;
+    /* 適切な間隔を設定 */
+}
+
+
+/* サイドバー */
+.aside {
+    width: 17%;
+    /* margin-top: -100px; 
+    margin-left: 20px;*/
+}
+
+label>a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+label {
+    display: inline-block;
+    margin: 3px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.container h2 {
+    margin-top: 4px;
+}
+
+.major_category_name {
+    font-size: 20px;
+    color: coral;
+}
+
+/* メイン */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    Flex-direction: row-reverse
+}
+
+/* 投稿内容について */
+.category-title {
+    background-color: #ffffff;
+    /* padding-bottom: 10%; */
+}
+
+.thread {
+    background-color: #ffffff;
+    text-align: center;
+    width: 78%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thread-item {
+    width: 80%;
+    margin: 0 5%;
+    background-color: #ffffff;
+    border: double 5px #4ec4d3;
+    padding: 2%;
+}
+
+.thread-title {
+    text-align: center;
+}
+
+.thread a {
+    display: inline-block;
+    padding-top: 2%;
+    border-top: 1px solid #e3e3e3;
+    width: 78%;
+    padding-bottom: 2%;
+}
+
+.thread a:last-child {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.thread-keyword a:last-child {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.thread-category a:last-child {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.thread h1 {
+    display: inline-block;
+    background-color: #fdbf64;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2% 10%;
+    margin: 2%;
+}
+
+.message .reply {
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+}
+
+.message label {
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.message-button {
+    color: #ffffff;
+    font-size: 22px;
+    padding-bottom: 5px;
+    background-color: #eaf6fd;
+}
+
+.message-button:hover {
+    background-color: #97cdf3;
+}
+
+.message-area input[type=submit] {
+    line-height: 48px;
+    display: block;
+    width: 50%;
+    height: 48px;
+    margin: 40px auto 0;
+}
+
+.message label span {
+    padding: 0 5px;
+}
+
+.message p {
+    margin-left: 5%;
+    width: 78%;
+    text-align: left;
+    padding: 20px 0 82px;
+}
+
+.message-form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+img {
+    width: 20px;
+}
+
+.favorite-count {
+    display: block;
+    text-align: right;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 4%;
+}
+
+.badge {
+    color: blue;
+}
+
+/* 投稿フォーム */
+.content-form {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.name-input {
+    border-radius: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 12px 10px;
+    width: 80%;
+}
+
+.form-button {
+    padding: 10px 150px;
+    border-radius: 5px;
+    background-color: #eaf6fd;
+}
+
+.form-button:hover {
+    background-color: #dbeaf0;
+}
+
+/* フッター */
+.footer-title {
+    text-align: center;
+    margin: 20px 0;
+    color: grey;
+}
