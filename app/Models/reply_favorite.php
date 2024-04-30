@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class reply_favorite extends Model
+class Reply_Favorite extends Model
 {
     use HasFactory;
 
