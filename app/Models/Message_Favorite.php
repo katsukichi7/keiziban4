@@ -7,9 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Message_Favorite extends Model
 {
+    protected $table = 'message_favorites';
     use HasFactory;
 
-    public function message(){
+    public function message()
+    {
         return $this->belongsTo(Message::class);
     }
 }
