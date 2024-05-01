@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('favorites', function (Blueprint $table) {
+        Schema::create('message_favorites', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('message_id');
             $table->string('ip')->nullable();
