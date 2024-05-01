@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Reply_Favorite extends Model
 {
-    protected $table = 'message_favorites';
+    protected $table = 'Reply_Favorites';
     use HasFactory;
 
     public function reply(){
